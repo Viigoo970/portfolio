@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portefólio - Victor Gomes</title>
+
+/*
+* Ficheiro: nomeFicheiro.cpp
+* Autor: Victor Gomes
+* Data: 2026
+* Descrição: UC 0792: Criação de páginas para a web em hipertexto
+*/
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: #0f172a;
+        color: #e2e8f0;
+    }
+
+    header {
+        background: linear-gradient(135deg, #1e293b, #0ea5e9);
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 3em;
+    }
+
+    header p {
+        font-size: 1.2em;
+        opacity: 0.8;
+    }
+
+    nav {
+        background: #020617;
+        padding: 10px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+    }
+
+    nav a {
+        color: #38bdf8;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 60px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    h2 {
+        color: #38bdf8;
+        border-left: 5px solid #38bdf8;
+        padding-left: 10px;
+    }
+
+    .card {
+        background: #1e293b;
+        padding: 20px;
+        margin: 15px 0;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.02);
+        background: #334155;
+    }
+
+    ul {
+        line-height: 1.8;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #020617;
+        font-size: 0.9em;
+        opacity: 0.7;
+    }
+
+    .highlight {
+        color: #22c55e;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Victor José Gomes</h1>
+    <h4>RVCC Profissional</h4>
+    <h4>Técnico de Informática – Sistemas Nível 4 |</h4>
+    <h6>2026</h6>
+    
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#competencias">Competências</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#formacao">Formação</a>
+    <a href="#area-trabalho">Área de Trabalho</a>
+    <a href="#autobiografia">Autobiografia</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="sobre">
+    <h2>Introdução</h2>
+    <div class="card">
+        <p>Este portefólio foi desenvolvido no âmbito do processo <span class="highlight">RVCC PRO</span>, com o objetivo de validar competências adquiridas ao longo da vida na área da informática.</p>
+        <p>Ao longo da minha carreira, desenvolvi competências em instalação, manutenção e resolução de problemas informáticos, demonstrando autonomia e adaptação constante à evolução tecnológica.</p>
+    </div>
+</section>
+
+<section id="objetivos">
+    <h2>Objetivos</h2>
+    <div class="card">
+        <ul>
+            <li>Obter certificação de Técnico de Informática – Nível 4</li>
+            <li>Validar competências práticas</li>
+            <li>Melhorar empregabilidade</li>
+            <li>Desenvolver conhecimentos técnicos avançados</li>
+        </ul>
+        <p>Com mais de 20 anos de experiência, encaro esta certificação como um passo essencial para evolução profissional e domínio técnico.</p>
+    </div>
+</section>
+
+<section id="competencias">
+    <h2>Competências Técnicas</h2>
+    <div class="grid">
+        <div class="card">Formatação e instalação de Windows</div>
+        <div class="card">Configuração de redes Wi-Fi</div>
+        <div class="card">Manutenção de hardware</div>
+        <div class="card">Diagnóstico de avarias</div>
+        <div class="card">Suporte técnico</div>
+    </div>
+
+    <h2>Competências Pessoais</h2>
+    <div class="grid">
+        <div class="card">Responsabilidade</div>
+        <div class="card">Autonomia</div>
+        <div class="card">Resolução de problemas</div>
+        <div class="card">Iniciativa</div>
+    </div>
+</section>
+
+<section id="experiencia">
+    <h2>Experiência Profissional</h2>
+    <div class="card">
+        <p><strong>Técnico de Manutenção de Equipamentos</strong></p>
+        <p>Mais de 20 anos na área de equipamentos tecnológicos OFFICE/PPD/TI.</p>
+        <ul>
+            <li>Diagnóstico e reparação de avarias</li>
+            <li>Instalação de sistemas e redes</li>
+            <li>Acompanhamento da evolução tecnológica</li>
+        </ul>
+    </div>
+</section>
+
+<section id="formacao">
+    <h2>Formação</h2>
+    <div class="card">
+        <p><strong>Formação Académica:</strong></p>
+        <ul>
+            <li>Ensino Primário, Escola Arco da Almedina (Coimbra) 1976/1980</li>
+            <li>Escola Silva Gaio (Coimbra) 1980/1982</li>
+            <li>Escola Eugénio de Castro (Coimbra) 1987/1989</li>
+            <li>Escola Secundária da Brotero (Coimbra) 1992/1994</li>
+            <li>I.E.F.P. Centro de Formação Profissional na Pedrulha (2022/2026)</li>
+        </ul>
+
+        <p><strong>Formação Técnica:</strong></p>
+        <ul>
+            <li>Hardware e Software</li>
+            <li>Redes LAN e Wi-Fi</li>
+            <li>Segurança Informática</li>
+            <li>Programação (C/C++ e Java)</li>
+            <li>Criação de páginas Web (HTML/CSS)</li>
+        </ul>
+        
+
+
+
+<style>
+
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 12px;
+
+    transition: all 0.3s ease;
+}
+
+.botao:hover{
+    background: #1d4ed8;
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+</style>
+
+<section id="area-trabalho">
+    <h2>Área de Trabalho</h2>
+
+    <a class="botao" href="documentos/">
+        📘 Exercícios
+    </a>
+
+    <a class="botao" href="Portefólio RVCC PRO/">
+        📘 Portefólio RVCC PRO
+    </a>
+</section>
+
+</body>
+</html>
+
+    </div>
+</section>
+
+<section id="autobiografia">
+    <h2>Autobiografia</h2>
+    <div class="card">
+        <p>O meu interesse pela informática começou aos 15 anos com um <span class="highlight">Spectrum 48K</span>. Desde então, desenvolvi competências técnicas através da prática e curiosidade.</p>
+        <p>Um momento marcante foi quando reparei o rádio do meu pai aos 8 anos, aos 20 anos repararei o meu primeiro computador <span class="highlight">Schneider pc 8088</span> sozinho utilizando ferramentas básicas, reforçando a minha aptidão técnica.</p>
+        <p>Com mais de 20 anos de experiência na manutenção de equipamentos <span class="highlight">OFFICE/PPD/INFORMÁTICA</span>, tenho vindo a demonstrar grande entusiasmo em obter uma certificação de Nível 4 em Informática, considero a evolução profissional e actualização num setor em constante mudança. Desde jovem, mostrei uma grande paixão tecnologia, adquirindo experiência fui em busca de reparar os meus computadores, o que me despertou o meu interesse por programação e manutenção. A paixão pela informática levou-me a realizar um curso de T.I. para estar há altura dos projetos da empresa onde trabalhei durante 25 anos no suporte técnico, reparações e instalação de redes. Ao longo da minha carreira, desenvolvi competências sólidas em sistemas operativos (windows e mac), redes, manutenção de computadores, ferramentas Microsoft Office e interesse por programação. Vejo esta certificação como parte de um contínuo processo de aprendizagem e melhoria profissional, com o objetivo de contribuir ainda mais para os projetos da equipa com que trabalho.</p>
+        <p>Ao longo da carreira, acompanhei a evolução tecnológica e continuo motivado para aprender e evoluir.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Evidência Técnica</h2>
+    <div class="card">
+        <p><strong>Instalação de Windows:</strong></p>
+        <ol>
+            <li>Acesso à BIOS</li>
+            <li>Boot por USB</li>
+            <li>Formatação do disco</li>
+            <li>Instalação do sistema</li>
+            <li>Drivers e atualizações</li>
+        </ol>
+    </div>
+</section>
+
+<section>
+    <h2>Reflexão</h2>
+    <div class="card">
+        <p>Este portefólio representa o resultado do trabalho desenvolvido ao longo do meu percurso na área da informática, reunindo evidências das competências técnicas e práticas que fui adquirindo. Ao longo deste processo, tive a oportunidade de consolidar conhecimentos em diferentes áreas, aplicando-os em contextos reais e simulados, o que contribuiu significativamente para o desenvolvimento do meu sentido de responsabilidade, autonomia e capacidade de resolução de problemas. A realização deste portefólio permitiu-me também refletir sobre a minha evolução, identificando não só os progressos alcançados, mas também aspetos que ainda posso melhorar. Considero que adquiri uma base sólida de conhecimentos que me permite enfrentar com confiança os desafios da área tecnológica. Neste sentido, acredito que reúno as condições necessárias para a obtenção da certificação de Técnico de Informática – Nível 4. Para além disso, mantenho uma atitude positiva e motivada para continuar a aprender, atualizar competências e acompanhar a constante evolução das tecnologias, reconhecendo a importância da formação contínua para o meu futuro profissional. Por fim, este trabalho reflete não só o que aprendi até ao momento, mas também o meu compromisso com o crescimento pessoal e profissional, demonstrando a minha vontade de construir uma carreira sólida na área da informática.</p>
+        <p>Considero que reúno competências para obter a certificação de Nível 4 e continuar a evoluir na área tecnológica.</p>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <div class="card">
+        <p><strong>Nome:</strong> Victor José Gomes</p>
+        <p><strong>Telefone:</strong> 934087075</p>
+        <p><strong>Email:</strong> Viigoo970@gmail.com</p>
+        <p><strong>Nacionalidade:</strong> Portuguesa</p>
+    </div>
